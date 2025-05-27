@@ -272,6 +272,17 @@
         
         updateDateTime();
         setInterval(updateDateTime, 1000);
+////////////เพิ่มเข้ามาใหม่//////////////////////////
+        const response = await fetch(API_URL, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(data),
+  mode: 'cors',
+  cache: 'no-cache',
+});
+
         
         // Material data cache
         let materialDataCache = [];
