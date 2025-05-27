@@ -1,2 +1,2 @@
-# StockQRApp
+# stockqrapp
 StockQRApp
