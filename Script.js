@@ -1,4 +1,3 @@
-
 const API_URL = 'https://script.google.com/macros/s/AKfycbzNUKxf50ZSlbBxOxCt0zXR05Y2i8LAPmVnI1yc22pQsmStt76SsOa2nDBm9tdHPv63/exec';
 
 async function loadMaterials() {
